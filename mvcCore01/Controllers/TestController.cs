@@ -57,7 +57,7 @@ namespace mvcCore01.Controllers
                 return NotFound();
             }
 
-            var person = new Person();
+            Person person = new();
             person.Name = "John Wick";
             person.PhoneNumber= "12345";
             person.Email= "john@email.com";
